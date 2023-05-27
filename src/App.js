@@ -11,7 +11,7 @@ function App() {
       <div className="flex flex-row justify-center items-center mt-[3rem] w-[60%] m-[auto] justify-between mb-[2rem]">
       <button className="hover:bg-green-600 rounded-md bg-green-500 text-white px-[.8rem] py-[.4rem]" onClick={() => setCount (count + 1) }>Increase</button>
       <button className="hover:bg-red-600 rounded-md bg-red-500 text-white px-[.8rem] py-[.4rem]" onClick={() => setCount (count - 1) } disabled={count === 0}>Decrease</button>
-      <button className="hover:bg-slate-400 rounded-md bg-slate-300 text-black px-[.7rem] py-[.4rem]" onClick={() => setCount(0)} disabled={count === 0}>Reset</button>
+      <button className="hover:bg-slate-500 rounded-md bg-slate-400 text-black px-[.7rem] py-[.4rem]" onClick={() => setCount(0)} disabled={count === 0}>Reset</button>
       </div>
     </div>
   </>
